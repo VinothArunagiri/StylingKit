@@ -219,13 +219,13 @@ static NSMutableArray *DYNAMIC_SUBCLASSES;
         exceptionClassNames = [NSMutableSet new];
         matchedClasses = [NSMutableSet new];
 
-        NSString *prefix = @"CAM";
+        /*NSString *prefix = @"CAM";
         if ([[UIDevice currentDevice] systemVersion].floatValue >= 9.0)
         {
             prefix = @"CMK";
         }
         [exceptionClassNames addObject:[NSString stringWithFormat:@"%@%@%@", prefix, @"Flip", @"Button" ]];
-        [exceptionClassNames addObject:[NSString stringWithFormat:@"%@%@%@", prefix, @"Shutter", @"Button" ]];
+        [exceptionClassNames addObject:[NSString stringWithFormat:@"%@%@%@", prefix, @"Shutter", @"Button" ]];*/
     });
 
     for (NSString *name in exceptionClassNames)
